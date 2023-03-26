@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator ecuații de gradul 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculator ecuații de gradul 2</h1>
+    <form>
+      <label for="a">Coeficient a:</label>
+      <input type="number" id="a" name="a"><br><br>
+      <label for="b">Coeficient b:</label>
+      <input type="number" id="b" name="b"><br><br>
+      <label for="c">Coeficient c:</label>
+      <input type="number" id="c" name="c"><br><br>
+      <button type="button" id="calculateButton">Calculează</button>
+    </form>
+
+    <div id="resultContainer">
+      <p>Rezultatul ecuației este:</p>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="apps.js"></script>
+</body>
+</html>
